@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="Archivo, Helvetica Neue, Arial, sans-serif">
+  <defs>
+    <pattern id="grid" width="88" height="88" patternUnits="userSpaceOnUse">
+      <path d="M88 0H0v88" fill="none" stroke="#1c1c1c" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <clipPath id="knock"><circle cx="252" cy="470" r="62"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="630" fill="#dedede"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- wordmark -->
+  <g transform="translate(72 64)">
+    <rect x="0" y="2" width="27" height="19" fill="none" stroke="#1c1c1c" stroke-width="2.8"/>
+    <circle cx="8" cy="17" r="6" fill="#dedede" stroke="#1c1c1c" stroke-width="2.8"/>
+    <rect x="19.5" y="5.5" width="4" height="4" fill="#4a56e0"/>
+    <text x="42" y="19" font-size="19" font-weight="800" letter-spacing="1.2" fill="#1c1c1c">PFPAIR</text>
+  </g>
+  <text x="1128" y="83" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="15" fill="#5f5f5f">banc d'essai</text>
+  <line x1="72" y1="112" x2="1128" y2="112" stroke="#1c1c1c" stroke-opacity="0.28"/>
+
+  <!-- headline -->
+  <text x="72" y="205" font-size="62" font-weight="800" letter-spacing="-2.6" fill="#1c1c1c">Avatar et banni&#232;re</text>
+  <text x="72" y="272" font-size="62" font-weight="300" letter-spacing="-2.6" fill="#5f5f5f">d&#233;coup&#233;s dans la m&#234;me image.</text>
+
+  <!-- bench plate -->
+  <g>
+    <rect x="72" y="330" width="1056" height="228" fill="#ececec" stroke="#1c1c1c" stroke-opacity="0.28"/>
+    <rect x="168" y="366" width="912" height="160" fill="#c9c9c9" stroke="#1c1c1c" stroke-opacity="0.28"/>
+    <path d="M168 470 L340 398 L520 462 L700 384 L900 452 L1080 400" fill="none" stroke="#8f8f8f" stroke-width="3"/>
+    <path d="M168 526 L340 470 L520 512 L700 452 L900 505 L1080 462 L1080 526 Z" fill="#b3b3b3"/>
+
+    <!-- registration marks -->
+    <path d="M168 380v-14h14M1080 380v-14h-14M168 512v14h14M1080 512v14h-14" fill="none" stroke="#1c1c1c" stroke-opacity="0.45" stroke-width="1.5"/>
+
+    <!-- avatar knockout -->
+    <circle cx="252" cy="470" r="69" fill="#ececec"/>
+    <g clip-path="url(#knock)">
+      <rect x="168" y="366" width="912" height="160" fill="#c9c9c9"/>
+      <path d="M168 470 L340 398 L520 462 L700 384 L900 452 L1080 400" fill="none" stroke="#8f8f8f" stroke-width="3"/>
+      <path d="M168 526 L340 470 L520 512 L700 452 L900 505 L1080 462 L1080 526 Z" fill="#b3b3b3"/>
+    </g>
+    <circle cx="252" cy="470" r="62" fill="none" stroke="#4a56e0" stroke-width="3"/>
+
+    <!-- dimension line -->
+    <g font-family="JetBrains Mono, monospace" font-size="14" fill="#5f5f5f">
+      <line x1="168" y1="348" x2="560" y2="348" stroke="#1c1c1c" stroke-opacity="0.28"/>
+      <line x1="700" y1="348" x2="1080" y2="348" stroke="#1c1c1c" stroke-opacity="0.28"/>
+      <text x="630" y="353" text-anchor="middle">1200 px</text>
+    </g>
+  </g>
+
+  <!-- footer strip -->
+  <line x1="72" y1="574" x2="1128" y2="574" stroke="#1c1c1c" stroke-opacity="0.28"/>
+  <g font-family="JetBrains Mono, monospace" font-size="16" fill="#3a3a3a">
+    <text x="72" y="602">10 destinations</text>
+    <text x="330" y="602">aucun upload</text>
+    <text x="560" y="602">export PNG + ZIP</text>
+    <text x="1128" y="602" text-anchor="end" fill="#1c1c1c">pfpair.app</text>
+  </g>
+</svg>
